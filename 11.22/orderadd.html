@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="orda-top">
+        <div class="w">
+            <div class="title">
+                <a href="order.html" class="back"></a>
+                添加指令
+            </div>
+        </div>
+    </div>
+    
+    <div class="orda-cont">
+        <form class="orda-key" method="post" action="">
+            <div>
+                <label>指令名称</label>
+                <input type="text" style="padding-left:1.8rem;" maxlength="5" required oninvalid="setCustomValidity('请输入指令名称');" oninput="setCustomValidity('');">
+            </div>
+            <div>
+                <label>指令别名</label>
+                <input type="text" style="padding-left:1.8rem;" maxlength="5" required oninvalid="setCustomValidity('请输入指令别名');" oninput="setCustomValidity('');">
+            </div>
+            <span>通过模板添加</span>
+            <div class="orda-select">
+                <i></i>
+                <select required>
+                    <option value="">指令模板</option>
+                    <option value="空调">空调</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div class="orda-prompt">
+                <p>温馨提示：<br/>
+                1.指令名称数字请用中文（如二十五）添加完成后必须学习才能使用。学习方法：从指令列表中点击学习指令。<br/>
+                2.如使用模板，请在添加前确保之前没有添加任何指令，如有添加请删除。<br/>
+                3.本系统支持红外、无线遥控等控制方式 
+                </p>
+            </div>
+            <input type="submit" value="确定" class=" orda-submit">
+        </form>
+    </div>
+</body>
+</html>

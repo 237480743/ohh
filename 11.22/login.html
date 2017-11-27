@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="login">
+        <div class="w">
+            <div class="login-head" id="login-head">                
+            </div>
+            <form class="login-cont" method="post" action="php/login.php">
+                <div class="login-input">
+                    <label class="image-replace">username</label>
+                    <input name="username" type="text" placeholder="主机序号" maxlength="8" required  oninvalid="setCustomValidity('请输入主机序号');" oninput="setCustomValidity('');"> 
+                </div>
+                <div class="login-input">
+                    <label class="image-replace">password</label>
+                    <input name="password" type="password" placeholder="绑定密码" required oninvalid="setCustomValidity('请输入绑定密码');" oninput="setCustomValidity('');"> 
+                </div>
+                <div class="login-opt">
+                    <a href="resetkey.html">忘记密码</a>
+                    <a href="activation.html">在线激活</a>
+                </div>
+                <input type="submit" value="确定" class="login-button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

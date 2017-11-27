@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="ords-top">
+        <div class="w">
+            <div class="title">
+                <a href="order.html" class="back"></a>
+                学习指令
+            </div>
+        </div>
+    </div> 
+    <div class="ords-icon"></div>   
+    <form class="ords-cont" method="post" action="">
+        <div class="ords-explain">
+            <i></i>&nbsp;<span>学习说明</span>
+            <p>1. 如果是433、315M遥控器，应保持与主机1米左右距离</p>
+            <p>2. 如果是红外遥控器，应将遥控器对准主机红外接收孔<m style="color:#32A5F8">（详见使用说明）</m></p>
+            <p>3. 稍等一会，不要刷新或关闭网页，直接弹出“学习成功”</p>
+        </div>
+        <div class="ords-model">
+            <i></i>&nbsp;<span>模式</span>
+            <p>对于一些按下按钮后可以连续发射的433、315M遥控器，可以勾选上面的复选框，然后采取先按住遥控器对应按钮，再按下学习按钮的方式进行学习效果更好</p>
+            <div class="ords-warn">
+                <span>先按遥控器模式</span>
+                <div><input class="toggle" type="checkbox" checked="checked"/>&nbsp;&nbsp;</div>
+            </div>
+            <div class="ords-warn2">
+                <span>自动重编码模式</span>
+                <div><input class="toggle" type="checkbox" checked="checked"/>&nbsp;&nbsp;</div>
+            </div>
+        </div>
+        <div class="ords-prompt">
+            <i></i>&nbsp;<span>温馨提示</span>
+            <p>
+            每条指令都可以随时学习修改，自动重编码模式射频遥控推荐勾选，红外勿选
+            </p>
+        </div>
+        <input type="submit" value="确定" class="ords-submit">   
+    </form>
+</body>
+</html>

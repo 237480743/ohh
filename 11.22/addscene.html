@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <title>添加场景</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="adds-top">
+        <div class="w">
+            <div class="title">
+                <a href="index.html" class="back"></a>
+                添加场景
+            </div>
+        </div>
+    </div>
+    
+    <div class="adds-cont">
+        <form class="adds-key" method="post" action="">
+            <div class="adds-input">
+                <div>
+                    <label>场景名称</label>
+                    <input type="text" style="padding-left:1.8rem;" maxlength="5" required oninvalid="setCustomValidity('请输入场景名称');" oninput="setCustomValidity('');">
+                </div>
+                <div>
+                    <label>场景别名</label>
+                    <input type="text" style="padding-left:1.8rem;" maxlength="5" required oninvalid="setCustomValidity('请输入场景别名');" oninput="setCustomValidity('');">
+                </div>
+            </div> 
+            <div class="adds-prompt">
+                <p>温馨提示：<br/>
+                1. 通过说出场景名称可以自动执行一串指令；场景别名是你对该场景另外的控制叫法<br/>
+                2. 添加后，通过设备管理向场景中添加指令<br/>
+                3. 添加成功后如需修改，请删除后重新添加<br/>
+                </p>
+            </div>
+            <input type="submit" value="确定" class="adds-submit">
+        </form>
+    </div> 
+
+</body>
+</html>

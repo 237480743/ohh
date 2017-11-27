@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <title>编辑房间</title>
+	<link rel="stylesheet" type="text/css" href="css/bgwhite.css">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="device-header">        
+        <div class="title">
+            <a href="index.html" class="back"></a>
+            编辑房间
+        </div>
+    </div>
+    <form class="device-search">
+        <div class="w">
+			<input style="color:#323232;padding-left:.5rem;" class="device-input" type="text" placeholder="卧室" maxlength="3" required oninvalid="setCustomValidity('请输入房间名称');" oninput="setCustomValidity('');"> 
+			<input type="submit" value="确定" class="device-button">  
+        </div>
+    </form>
+    <div class="device-cont w">
+        <div class="device-title">
+            <sapn>我的房间</sapn>
+			<div class="tip-menu">
+		        <div>
+			        <span class="ok">确定</span>
+		        </div>
+			</div>
+			<span class="editor">编辑</span>
+        </div>
+        <div class="site">
+	        <div class="tip">
+		        <div class="tip-device">
+			        主卧
+			        <span class="del"></span>
+		        </div>
+		        <div class="tip-device">
+			        客厅
+			        <span class="del"></span>
+		        </div>
+		        <div class="tip-device">
+			        次卧
+			        <span class="del"></span>
+		        </div>
+		        <div class="tip-device">
+			        浴室
+			        <span class="del"></span>
+		        </div>
+		        <div class="tip-device">
+			        餐厅
+			        <span class="del"></span>
+		        </div>
+		        <div class="tip-device">
+			        走廊
+			        <span class="del"></span>
+		        </div>
+		        <div class="tip-device">
+			        卫生间
+			        <span class="del"></span>
+		        </div>
+		        <div class="tip-device">
+			        次卧1
+			        <span class="del"></span>
+		        </div>
+		        <div class="tip-device">
+			        厨房
+			        <span class="del"></span>
+		        </div>
+		        <div class="tip-device">
+			        次卧2
+			        <span class="del"></span>
+		        </div>
+		        <div class="tip-device">
+			        书房
+			        <span class="del"></span>
+		        </div>
+		        <div class="tip-device">
+			        储藏室
+			        <span class="del"></span>
+		        </div>
+	        </div>
+        </div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/deviceadd.js"></script>
+</body>
+</html>

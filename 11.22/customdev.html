@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="customdev">
+        <div class="cus-top">        
+            <div class="w">
+                <div class="title">
+                    <a href="index.html" class="back"></a>
+                    添加自定义设备
+                </div>
+            </div>
+        </div>
+        <div class="w">
+            <form class="cus-cont" method="post" action="">
+                <div class="cus-select">
+                    <i></i>
+                    <select required>
+                        <option value="">控制方式</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="cus-input">
+                    <div>
+                        <label>设备名称</label>
+                        <input type="text" style="padding-left:1.8rem;" maxlength="5" required oninvalid="setCustomValidity('请输入设备名称');" oninput="setCustomValidity('');">
+                    </div>
+                    <div>
+                        <label>设备别名</label>
+                        <input type="text" style="padding-left:1.8rem;" maxlength="5" required oninvalid="setCustomValidity('请输入设备别名');" oninput="setCustomValidity('');">
+                    </div>
+                </div>
+                <div class="cus-select">
+                    <i></i>
+                    <select required>
+                        <option value="">设备类型</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="cus-prompt">
+                    <p>温馨提示：<br/>
+                    1. 315或433 Mhz无线设备无需使用控制器 <br/>
+                    2. 设备名称如“客厅主灯”“卧室主灯” <br/>
+                    3. 设备别名即你对设备的别称，如“客厅大灯” <br/>
+                    4. 设备名称、别名是控制设备时使用的叫法
+                    </p>
+                </div>
+                <input type="submit" value="确定" class="cus-submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

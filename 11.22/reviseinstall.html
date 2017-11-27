@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="rev-top">
+        <div class="w">
+            <div class="title">
+                <a href="index.html" class="back"></a>
+                修改设置
+            </div>
+        </div>
+    </div>    
+    <div class="rev-cont">
+        <form class="rev-key">
+            <div class="rev-input">
+                <div>
+                    <label>设备名称</label>
+                    <input type="text" style="padding-left:1.8rem;" maxlength="5" required oninvalid="setCustomValidity('请输入设备名称');" oninput="setCustomValidity('');">
+                </div>
+                <div>
+                    <label>设备别名</label>
+                    <input type="text" style="padding-left:1.8rem;" maxlength="5" required oninvalid="setCustomValidity('请输入设备别名');" oninput="setCustomValidity('');">
+                </div>
+            </div>
+            <div class="rev-warn">
+                <span>电视信号</span>
+                <div><input class="toggle" type="checkbox" checked="checked"/>&nbsp;&nbsp;</div>
+            </div>
+            <div class="rev-warn2">
+                <span>由智能恒温器控制</span>
+                <div><input class="toggle" type="checkbox" checked="checked"/>&nbsp;&nbsp;</div>
+            </div>
+            <div class="rev-prompt">
+                <p>温馨提示<br/>
+                1.轻易不要修改所属家电控制器，否则与此相关设备相关的场景指令必须重新添加。如果没有设备别名，请留空<br/>
+                2.电视信号源必须包含0-9的按键指令，同时指令名称必须为阿拉伯数字<br/>
+                3.空调设置的动作指令必须包含温度及冷热模式，如“制冷二五”
+                </p>
+            </div>
+            <input type="submit" value="确定" class="rev-submit">  
+        </form>
+    </div>
+</body>
+</html>
