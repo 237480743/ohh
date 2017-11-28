@@ -1,0 +1,92 @@
+@import "base.css";
+body {
+	background: #babbbf;
+}
+
+#ohh-sub {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#ohh-sub .ohh-sub-form {
+	width: 970px;
+	height: 557px;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: .2em;
+	border: 1px solid #8f9095;
+	box-shadow: 1px 1px 8px 1px #9da0a5;
+}
+
+#ohh-sub .ohh-sub-title {
+	width: 970px;
+	height: 50px;
+	background: #1d1e23;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	box-shadow: 0px 2px 2px 1px #828282;
+	border-top-left-radius: .2em;
+	border-top-right-radius: .2em;
+}
+
+.ohh-sub-box {
+	width: 100%;
+	height: auto;
+	margin-top: 55px;
+}
+
+.ohh-sub-box li {
+	width: 686px;
+	height: 38px;
+	margin: 0px auto;
+	margin-bottom: 6px;
+}
+
+.ohh-sub-box li label {
+	width: 90px;
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	text-align: right;
+	color: #555555;
+}
+
+.ohh-sub-box li .ohh-sub-input {
+	width: 576px;
+	height: 36px;
+	background: #e8e8ea;
+	line-height: 36px;
+	border: none;
+	float: left;
+	margin-left: 20px;
+}
+
+.ohh-sub-box li .ohh-sub-input input {
+	background: #e8e8ea;
+	border: none;
+	width: 80%;
+	outline: medium;
+	padding-left: 20px;
+}
+
+.ohh-sub-form button {
+	width: 115px;
+	height: 35px;
+	background: #1d1e23;
+	color: #ffffff;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	margin: 38px 0 0 434px;
+	border-radius: .1em;
+	font-size: 14px;
+	letter-spacing: 2px;
+}

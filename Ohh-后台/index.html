@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery.js"></script>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<!--左侧导航开始-->
+			<div class="nav-box">
+				<div class="nav-header">
+					<a class="logo" href="#">
+					</a>
+				</div>
+				<ul class="ohh-nav-info">
+					<li>
+						<h5>
+							用户名 :
+						</h5>
+						<span>
+							dazu
+						</span>
+					</li>
+					<li>
+						<h5>
+							权限 :
+						</h5>
+						<span>
+							重庆经销商
+						</span>
+					</li>
+					<li>
+						<h5>
+							服务代码 :
+						</h5>
+						<span>
+							143
+						</span>
+					</li>
+					
+				</ul>
+				<div class="nav-main row">
+					<ul class="nav">
+						<li>
+							<div class="ohh-xoo"></div>
+							<a href="#" @click='drop' class="change">基本功能<span class="caret"></span></a>
+							<ul class="nav nav-second-level">
+								<li class="ohh-s"><a href="#" @click='load' data-id="Ohh-table.html">查看信息</a></li>
+								<li class="ohh-s"><a href="#" @click='load' data-id="Ohh-change.html">修改密码</a></li>
+								<li class="ohh-s"><a href="#" @click='load' data-id="Ohh-subordinate.html">添加下级代理</a></li>
+								<li class="ohh-s"><a href="#" @click='load' data-id="Ohh-lower.html">下级代理管理</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="ohh-xoo"></div>
+							<a href="#" @click='drop' class="change">客户管理<span class="caret"></span></a>
+							<ul class="nav nav-second-level">
+								<li class="ohh-s"><a href="#" @click='load' data-id="Ohh-serve.html">服务信息</a></li>
+								<li class="ohh-s"><a href="#" @click='load' data-id="Ohh-lowers.html">客户管理</a></li>
+
+							</ul>
+						</li>
+						<li>
+							<div class="ohh-xoo"></div>
+							<a href="#" @click='drop' class="change">私有知识库<span class="caret"></span></a>
+							<ul class="nav nav-second-level">
+								<li class="ohh-s"><a href="#" @click='load' data-id="Ohh-knowledge.html">添加知识</a></li>
+								<li class="ohh-s"><a href="#" @click='load' data-id="Ohh-kms.html">知识管理</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="ohh-xoo"></div>
+							<a href="#" @click='drop' class="change">技术支持<span class="caret"></span></a>
+							<ul class="nav nav-second-level">
+								<li class="ohh-s"><a href="#" @click='load' data-id="Ohh-ask.html">产品常见问题</a></li>
+								<li class="ohh-s"><a href="#" @click='load' data-id="Ohh-question.html">产品售后支持</a></li>
+								<li class="ohh-s"><a href="#" @click='load' data-id="Ohh-money.html">二次开发支持</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="ohh-xoo"></div>
+							<a href="#" @click='load' data-id="Ohh-edition.html" class="change">版本信息<span class="caret"></span></a>
+
+						</li>
+						<li class="ohh-back">
+							<button>
+								退出
+							</button>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div id="page-wrapper">
+			<div class="row" style="height: 100%;">
+				     <div class="nav-right">
+						 <div class="nav-right-m">
+							
+						 </div>
+						 <div class="nav-right-r">
+							 <div class="ohh-serch">
+								 <button></button>
+							 </div>
+							 <div class="ohh-serch">
+								 <div class="num">
+									3
+								 </div>
+								 <button></button>
+							 </div>
+							 <div class="ohh-serch">
+								 <button></button>
+							 </div>
+							 <div class="ohh-serch">
+								 <button></button>
+							 </div>
+							 <div class="ohh-serch">
+								 <button></button>
+							 </div>
+
+						 </div>
+
+
+					 </div>
+                    <ol class="page-tabs">
+						<li><a href="#0">
+							<img src="img/home-icon_06.png" alt="">
+						</a></li>
+						<li class="breadnav hided"><a href="#0">版本信息</a></li>
+						<li class="breadnav hided"><a href="#0"></a></li>
+					</ol>
+					 <div id="content-main" class="row">
+						 <iframe frameborder="0" name="iframe0" data-id="Ohh-table.html"></iframe>
+					 </div>
+				 </div>
+			</div>
+		</div>
+	</body>
+</html>

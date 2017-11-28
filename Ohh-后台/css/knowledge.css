@@ -1,0 +1,179 @@
+@import "base.css";
+body {
+	overflow: hidden !important;
+	background: #babbbf;
+}
+
+#ohh-know {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 585px;
+}
+
+.ohh-know-form {
+	width: 712px;
+	padding-bottom: 40px;
+	background: #fff;
+	margin: 0 auto;
+	border-radius: .2em;
+	border: 1px solid #b5b6bb;
+	box-shadow: 1px 1px 8px 1px #9da0a5;
+}
+
+.ohh-know-title {
+	width: 100%;
+	height: 47px;
+	background: #1d1e23;
+	color: #fff;
+	line-height: 47px;
+	text-align: center;
+	box-shadow: 0px 2px 2px 1px #828282;
+	border-top-left-radius: .2em;
+	border-top-right-radius: .2em;
+}
+
+.ohh-know-box {
+	width: 600px;
+	height: 65px;
+	margin: 55px auto;
+	margin-bottom: 0px;
+}
+
+#ohh-know-active {
+	margin: 15px auto;
+	display: none;
+}
+
+.ohh-know-box label {
+	width: 35px;
+	height: 25px;
+	text-align: left;
+	color: #a3a3a3;
+	line-height: 25px;
+}
+
+.ohh-know-box .ohh-know-input {
+	width: 610px;
+	height: 36px;
+	line-height: 36px;
+	border: none;
+	margin-top: 4px;
+}
+
+.ohh-know-box .ohh-know-input .ohh-know-in {
+	background: #e8e8ea;
+	width: 470px;
+	height: 36px;
+	float: left;
+	border-radius: .1em;
+}
+
+.ohh-know-box .ohh-know-input input {
+	background: #e8e8ea;
+	border: none;
+	width: 100%;
+	height: 26px;
+	line-height: 26px !important;
+	outline: medium;
+	padding-left: 20px;
+}
+
+.ohh-know-form .ohh-know-more {
+	margin: 15px auto;
+}
+
+.ohh-know-form .ohh-know-more:nth-of-type(1) {
+	/* display: none;*/
+}
+
+.ohh-know-form .ohh-know-more div {
+	width: 430px;
+	height: 105px;
+	padding: 5px 20px 5px 20px;
+	background: #e8e8ea;
+	color: #68686a;
+	border-radius: .1em;
+	font-size: 16px;
+}
+
+.ohh-know-form .ohh-know-more div textarea {
+	background: #e8e8ea;
+	border: none;
+	width: 100%;
+	outline: medium;
+	height: 100%;
+	resize: none;
+	color: #68686a;
+	overflow: hidden;
+}
+
+.ohh-know-form .ohh-know-option {
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 0px;
+}
+
+.ohh-know-option label {
+	width: 88px;
+	height: 25px;
+	text-align: left;
+	color: #a3a3a3;
+	line-height: 25px;
+}
+
+.ohh-know-option select {
+	width: 470px;
+	height: 36px;
+	text-align: left;
+	color: #68686a;
+	line-height: 36px;
+	margin-top: 5px;
+	padding-left: 15px;
+	display: block;
+	outline: none;
+	border-radius: .1em;
+	border: 1px solid #ccc;
+	font-size: 16px;
+}
+
+.ohh-know-option select option {
+	border: 1px solid #ccc;
+	outline: none;
+	border-top: none;
+}
+
+.ohh-know-form button {
+	width: 115px;
+	height: 35px;
+	background: #1d1e23;
+	color: #ffffff;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	margin-top: 25px;
+	margin-left: 297px;
+	border-radius: .1em;
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+
+.ohh-know-box .ohh-know-input button {
+	width: 120px;
+	height: 36px;
+	background: #77787c;
+	color: #ffffff;
+	line-height: 36px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	float: right;
+	margin-left: 18px;
+	margin-top: 0 !important;
+	border-radius: .1em;
+	letter-spacing: 0px !important;
+}

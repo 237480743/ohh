@@ -1,0 +1,95 @@
+@import url('base.css');
+body {
+	overflow: hidden!important;
+	background: #babbbf;
+}
+
+#ohh-change {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.ohh-change-form {
+	width: 669px;
+	height: 417px;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: -5%;
+	margin: auto;
+	border-radius: .2em;
+	border: 1px solid #8f9095;
+	box-shadow: 1px 1px 8px 1px #9da0a5;
+}
+
+.ohh-change-title {
+	width: 100%;
+	height: 47px;
+	background: #1d1e23;
+	color: #fff;
+	line-height: 47px;
+	text-align: center;
+	box-shadow: 0 1px 1px 1px #929292;
+	border-top-left-radius: .2em;
+	border-top-right-radius: .2em;
+}
+
+.ohh-change-box {
+	width: 100%;
+	height: auto;
+	margin-top: 35px;
+}
+
+.ohh-change-box li {
+	width: 440px;
+	height: auto;
+	margin: 0px auto;
+}
+
+.ohh-change-box li label {
+	width: 13.02%;
+	height: 36px;
+	margin-left: 40px;
+	line-height: 36px;
+	color: #545454;
+}
+
+.ohh-change-box li .ohh-change-input {
+	width: 83.33%;
+	height: 36px;
+	margin-left: 40px;
+	background: #e8e8ea;
+	line-height: 36px;
+	border: none;
+}
+
+.ohh-change-box li .ohh-change-input input {
+	background: #e8e8ea;
+	border: none;
+	width: 50%;
+	outline: medium;
+	padding-left: 20px;
+}
+
+.ohh-change-box li .ohh-change-input img {
+	margin-left: 135px;
+}
+
+.ohh-change-form button {
+	width: 115px;
+	height: 35px;
+	background: #1d1e23;
+	color: #ffffff;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	border-radius: .1em;
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin: 38px 0 0 286px;
+}

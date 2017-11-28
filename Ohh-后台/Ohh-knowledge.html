@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<link rel="stylesheet" href="css/knowledge.css">
+		<script src="js/jquery.js"></script>
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+
+			<div id="ohh-know">
+				<div class="ohh-know-form" @click.stop="deletask">
+					<div class="ohh-know-title">
+						添加知识
+					</div>
+					<div class="ohh-know-box " @click.stop>
+						<label>
+                     问题 :
+                 </label>
+						<div class="ohh-know-input">
+							<div class="ohh-know-in">
+								<input type="text" value="" placeholder="什么都不知道怎么办">
+							</div>
+							<button @click.stop="addask">
+                         添加相似问法
+                     </button>
+						</div>
+					</div>
+					<div class="ohh-know-box" id="ohh-know-active" @click.stop="addask">
+						<label>
+                     相似问题 :
+                 </label>
+						<div class="ohh-know-input">
+							<div class="ohh-know-in">
+								<input type="text" value="" placeholder="什么都不知道怎么办怎么办">
+							</div>
+						</div>
+					</div>
+					<div class="ohh-know-option" @click.stop>
+						<div class="ohh-know-more">
+							<label>
+                     请选择回答方式 :
+                 </label>
+							<select name="ways">
+								<option value="">语音回答</option>
+								<option value="">语音回答</option>
+								<option value="">语音回答</option>
+							</select>
+						</div>
+						<div class="ohh-know-more">
+							<label>
+                         语音回答 :
+                     </label>
+							<div>
+								<textarea placeholder="什么都不知道怎么办"></textarea>
+							</div>
+
+						</div>
+					</div>
+
+					<button @click.stop>确认添加</button>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

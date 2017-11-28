@@ -1,0 +1,72 @@
+@import url(base.css);
+body {
+	overflow-x: hidden!important;
+	background: #dcdddf;
+}
+
+#ohh-question {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 35px;
+	padding-bottom: 2%;
+}
+
+#ohh-question .ohh-question-boxs {
+	width: 1110px;
+	height: auto;
+	background: #fff;
+	margin: 0 auto;
+	border-radius: .2em;
+	border: 1px solid #8f9095;
+	box-shadow: 1px 1px 8px 1px #9da0a5;
+	padding-bottom: 75px;
+}
+
+.ohh-question-boxs .ohh-question-titles {
+	width: 100%;
+	height: 47px;
+	background: #1d1e23;
+	color: #fff;
+	line-height: 47px;
+	padding-left: 50px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 2px 1px #828282;
+	border-top-left-radius: .2em;
+	border-top-right-radius: .2em;
+}
+
+#ohh-question .ohh-question-title {
+	width: 1085px;
+	height: 28px;
+	margin-top: 50px;
+	color: #4971eb;
+	margin-left: 50px;
+	line-height: 28px;
+}
+
+.ohh-question-hr {
+	width: 1010px;
+	height: 1px;
+	border-top: 1px solid #eeeef;
+	background: #f7f7f8;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+#ohh-question .question-box {
+	width: 1035px;
+	height: 405px;
+	background: #fff;
+	margin: 25px 50px 0 50px;
+}
+
+#ohh-question .question-box h6 {
+	font-size: 14px;
+	color: #545454;
+}
+
+#ohh-question .question-box p {
+	font-size: 14px;
+	color: #545454;
+}
